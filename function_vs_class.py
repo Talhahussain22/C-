@@ -17,5 +17,6 @@
 #         print(f"{self.name} run very fast")    
         
 # animal=Animal("Tommy",1) 
-# animal.run()       
+# animal.run()      
+
 
