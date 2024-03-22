@@ -37,6 +37,7 @@ Num n1;
     cout<<"Entering the block to create two more objects n2 and n3"<<endl;
     Num n2,n3;
     cout<<"Exiting the block"<<endl;
+    
 }
 
 cout<<"Back to main"<<endl;
