@@ -8,19 +8,19 @@ but in refrence variable it change content in both variable in Example 1 we make
 refrence and original have same location*/
 
 // EXAMPLE 1:
-#include <iostream>
-using namespace std;
-int main()
-{
-    string food="Pizza";
-    string meal=food;
-    food[0]='T';
-    cout<<food<<endl;
-    cout<<meal<<endl;
-     cout<<&food<<endl;
-    cout<<&meal<<endl;
-    return 0;
-}
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     string food="Pizza";
+//     string meal=food;
+//     food[0]='T';
+//     cout<<food<<endl;
+//     cout<<meal<<endl;
+//      cout<<&food<<endl;
+//     cout<<&meal<<endl;
+//     return 0;
+// }
 
 // EXAMPLE 2:
 

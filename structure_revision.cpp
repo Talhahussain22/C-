@@ -1,5 +1,6 @@
-// #include <iostream>
-// using namespace std;
+/*Sturcture Union and Enum are all user defined data type*/
+#include <iostream>
+using namespace std;
 
 // struct Employee
 // {
@@ -21,6 +22,8 @@
 //     return 0;
 // }
 
+/*In union only one attribute of user defined data type(union) can be set other will take random value
+*/
 // union money
 // {
 //     int rice;
@@ -30,10 +33,13 @@
 // int main()
 // {
 //     money m1;
-//     m1.pound=100000000.5;
-//     m1.rice=1000;
 //     m1.car='A';
-//     cout<<m1.pound<<m1.car;
+//     cout<<m1.car<<endl;
+//     m1.rice=1000;
+//     cout<<m1.rice<<endl;
+//     cout<<m1.car<<endl;
+//     m1.pound=20.7;
+//     cout<<m1.pound<<m1.car<<m1.rice<<endl;
 //     return 0;
 // }
 
@@ -135,7 +141,7 @@
 
 
 
-    
+// FUNCTION PROTOTYPE:
 
 
 // #include <iostream>
@@ -163,8 +169,8 @@
 
 
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 // int fabonacii(int n)
 // {
 //     if (n<2)
@@ -181,7 +187,28 @@
 //     int x;
 //     cout<<"Enter the term to find:";
 //     cin>>x;
-//     cout<<"The nth term of fabonacci sequence is "<<fabonacii(x);
+//     for(int i=0 ;i<=x;i++)
+//     {
+//         cout<<fabonacii(i)<<" ";
+//     }
+   
 //     return 0;
 // }
 
+void sum(int x,int y)
+{
+    cout<<"Int wala call hoa!"<<endl;
+    cout<<"The sum is "<<x+y<<endl;
+}
+
+void sum(double x,double y)
+{
+    cout<<"float wala call hoa!"<<endl;
+    cout<<"The sum is "<<x+y<<endl;
+}
+
+int main()
+{
+    sum(4,2);
+    sum(4.0,5.0);
+}
